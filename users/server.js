@@ -5,6 +5,7 @@ const schema = require("./schema/schema");
 const app = express();
 
 // Compatability layer for GraphQL
+// Only /graphql requests are calling graphql
 app.use(
   "/graphql",
   expressGraphQL({

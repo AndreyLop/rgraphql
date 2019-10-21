@@ -1,7 +1,13 @@
 const graphql = require("graphql");
-const _ = require("lodash");
+const axios = require("axios");
 
-const { GraphQLObjectType, GraphQLString, GraphQLInt, GraphQLSchema } = graphql;
+const {
+  GraphQLObjectType,
+  GraphQLString,
+  GraphQLInt,
+  GraphQLSchema,
+  GraphQLList
+} = graphql;
 
 const UserType = new GraphQLObjectType({
   name: "User",
@@ -14,32 +20,45 @@ const UserType = new GraphQLObjectType({
     },
     age: {
       type: GraphQLInt
+    },
+    companyId: {
+      type: GraphQLString
     }
   }
 });
 
-const users = [
-  {
-    id: "23",
-    firstName: "John",
-    age: 30
-  },
-  {
-    id: "45",
-    firstName: "Jack",
-    age: 34
+const CompanyType = new GraphQLObjectType({
+  name: "Company",
+  fields: {
+    id: {
+      type: GraphQLString
+    },
+    name: {
+      type: GraphQLString
+    },
+    description: {
+      type: GraphQLString
+    }
   }
-];
+});
 
+// RootQuery determines how you enter a graph of data
 const RootQuery = new GraphQLObjectType({
   name: "RootQueryType",
   fields: {
     user: {
-      type: UserType,
+      type: UserType, //return type
       args: { id: { type: GraphQLString } },
-      resolve(parentValue, args) {
-        const { id } = args;
-        return _.find(users, { id });
+      async resolve(parent, args) {
+        const res = await axios.get(`http://localhost:3000/users/${args.id}`);
+        return res.data;
+      }
+    },
+    users: {
+      type: new GraphQLList(UserType),
+      async resolve() {
+        const res = await axios.get(`http://localhost:3000/users`);
+        return res.data;
       }
     }
   }
