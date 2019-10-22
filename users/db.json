@@ -1,8 +1,23 @@
 {
   "users": [
-    { "id": "23", "firstName": "John", "age": 34, "companyId": "1" },
-    { "id": "12", "firstName": "Arthur", "age": 40, "companyId": "2" },
-    { "id": "47", "firstName": "Adam", "age": 50, "companyId": "2" }
+    {
+      "id": "23",
+      "firstName": "John",
+      "age": 34,
+      "companyId": "1"
+    },
+    {
+      "id": "12",
+      "firstName": "Arthur",
+      "age": 40,
+      "companyId": "2"
+    },
+    {
+      "id": "47",
+      "firstName": "Adam",
+      "age": 15,
+      "companyId": "2"
+    }
   ],
   "companies": [
     {
@@ -10,6 +25,10 @@
       "name": "Toha Heavy Industries",
       "description": "Silicon Life"
     },
-    { "id": "2", "name": "Aperture Science", "description": "Portals" }
+    {
+      "id": "2",
+      "name": "Aperture Science",
+      "description": "Portals"
+    }
   ]
 }
