@@ -1,7 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import ApolloClient from "apollo-client";
+import ApolloClient from "apollo-boost";
 import { ApolloProvider } from "react-apollo";
+
+import { Router } from "./components/Router";
 
 // ApolloCLient dosent know anything about react
 // ApolloProvider is what connects ApolloClient to React
@@ -10,7 +12,13 @@ import { ApolloProvider } from "react-apollo";
 const client = new ApolloClient({});
 
 const Root = () => {
-  return <ApolloProvider client={client}>Lyrical</ApolloProvider>;
+  return (
+    <ApolloProvider client={client}>
+      <div className="container">
+        <Router />
+      </div>
+    </ApolloProvider>
+  );
 };
 
 ReactDOM.render(<Root />, document.querySelector("#root"));
