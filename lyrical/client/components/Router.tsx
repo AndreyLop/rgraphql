@@ -3,6 +3,7 @@ import { HashRouter, Route, Switch, Link } from "react-router-dom";
 
 import { SongList } from "./SongList";
 import { SongCreate } from "./SongCreate";
+import { SongDetails } from "./SongDetail";
 
 export const Router = () => {
   return (
@@ -14,13 +15,14 @@ export const Router = () => {
               <Link to="/">Songs</Link>
             </li>
             <li>
-              <Link to="/song/new">Add Song</Link>
+              <Link to="/songs/new">Add Song</Link>
             </li>
           </ul>
         </nav>
       </div>
       <Switch>
-        <Route path="/song/new" component={SongCreate} />
+        <Route path="/songs/:id" component={SongDetails} />
+        <Route path="/songs/new" component={SongCreate} />
         <Route exact path="/" component={SongList} />
       </Switch>
     </HashRouter>

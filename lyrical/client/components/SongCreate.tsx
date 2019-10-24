@@ -1,11 +1,19 @@
 import React, { useState } from "react";
 import { useMutation } from "@apollo/react-hooks";
+import { useHistory } from "react-router-dom";
 
 import { ADD_SONG } from "../mutations/addSong";
+import { FETCH_SONGS } from "../queries/fetchSongs";
 
 export const SongCreate = () => {
+  const history = useHistory();
+
   const [title, setTitle] = useState("");
-  const [addSong] = useMutation(ADD_SONG);
+
+  const [addSong] = useMutation(ADD_SONG, {
+    onCompleted: () => history.push("/"),
+    refetchQueries: [{ query: FETCH_SONGS }]
+  });
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setTitle(e.target.value);
