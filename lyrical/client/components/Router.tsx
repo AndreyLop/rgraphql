@@ -21,8 +21,8 @@ export const Router = () => {
         </nav>
       </div>
       <Switch>
-        <Route path="/songs/:id" component={SongDetails} />
         <Route path="/songs/new" component={SongCreate} />
+        <Route path="/songs/:id" component={SongDetails} />
         <Route exact path="/" component={SongList} />
       </Switch>
     </HashRouter>

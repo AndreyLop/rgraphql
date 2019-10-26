@@ -10,7 +10,21 @@ import { ID, Song, SongsData } from "../interfaces/song";
 export const SongList: React.FC = () => {
   const { loading, error, data } = useQuery<SongsData>(FETCH_SONGS);
   const [deleteSong] = useMutation<Song, ID>(DELETE_SONG, {
-    refetchQueries: [{ query: FETCH_SONGS }]
+    // In order to update UI aftert this particluar mutation
+    // you must update cache manually
+    // cause apollo dont understands  that you deleted something
+    update: (store, { data }) => {
+      // read current cache
+      const cache = store.readQuery<SongsData>({ query: FETCH_SONGS });
+      if (cache && cache.songs) {
+        // Filter out deleted song
+        const songs = cache.songs.filter(
+          (song: Song) => song.id !== data.deleteSong.id
+        );
+        // Put whats left inside cache
+        store.writeQuery({ query: FETCH_SONGS, data: { songs } });
+      }
+    }
   });
 
   if (loading) {

@@ -1,5 +1,5 @@
 export type ID = {
-  id?: string;
+  id: string;
 };
 
 export interface Song extends ID {
@@ -18,6 +18,6 @@ export interface SongData {
 
 export interface Lyrics {
   id: string;
-  likes?: number;
+  likes: number;
   content?: string[];
 }

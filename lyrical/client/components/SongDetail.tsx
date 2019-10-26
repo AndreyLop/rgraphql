@@ -1,12 +1,19 @@
 import React from "react";
 import { useQuery } from "@apollo/react-hooks";
-import { useParams } from "react-router-dom";
+import { RouteComponentProps } from "react-router-dom";
+
+import { LyricList } from "./LyricList";
+import { LyricCreate } from "./LyricCreate";
 
 import { ID, SongData } from "../interfaces/song";
 import { FETCH_SONG } from "../queries/fetchSong";
 
-export const SongDetails = () => {
-  const { id } = useParams();
+interface Props {
+  id: string;
+}
+
+export const SongDetails: React.FC<RouteComponentProps<Props>> = props => {
+  const { id } = props.match.params;
 
   const { loading, error, data } = useQuery<SongData, ID>(FETCH_SONG, {
     variables: { id }
@@ -22,21 +29,16 @@ export const SongDetails = () => {
 
   const renderSong = () => {
     if (data && data.song.lyrics) {
+      const { title, lyrics } = data.song;
       return (
-        <ul>
-          {data &&
-            data.song.lyrics.map((lyric, i) => (
-              <li key={i}>{lyric.content}</li>
-            ))}
-        </ul>
+        <>
+          <h3>{title}</h3>
+          <LyricList lyrics={lyrics} />
+          <LyricCreate id={id} />
+        </>
       );
     }
   };
 
-  return (
-    <div>
-      <h3>Song Detail</h3>
-      {renderSong()}
-    </div>
-  );
+  return <div>{renderSong()}</div>;
 };
