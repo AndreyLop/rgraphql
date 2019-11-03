@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="259px" preserveAspectRatio="none" style="width:605px;height:259px;" version="1.1" viewBox="0 0 605 259" width="605px" zoomAndPan="magnify"><defs/><g><!--entity _AddLyricsToSong--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="119" x="149" y="214"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="99" x="159" y="236.0059">AddLyricsToSong</text><!--entity _addSong--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="71" x="6" y="152"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="51" x="16" y="174.0059">addSong</text><ellipse cx="340.4558" cy="45.242" fill="#F8F8F8" rx="28.4558" ry="13.242" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="36" x="322.4558" y="48.9842">apollo</text><!--entity _deleteSong--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="85" x="392" y="152"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="65" x="402" y="174.0059">deleteSong</text><!--entity _fetchSong--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="79" x="91" y="152"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="59" x="101" y="174.0059">fetchSong</text><!--entity _fetchSongs--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="86" x="491.5" y="152"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="66" x="501.5" y="174.0059">fetchSongs</text><ellipse cx="199.7487" cy="45.242" fill="#F8F8F8" rx="27.7487" ry="13.242" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="35" x="182.2487" y="48.9842">index</text><!--entity _likeLyric--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="65" x="282" y="214"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="45" x="292" y="236.0059">likeLyric</text><!--entity _LyricCreate--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="83" x="184" y="152"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="63" x="194" y="174.0059">LyricCreate</text><!--entity _LyricList--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="66" x="281.5" y="152"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="46" x="291.5" y="174.0059">LyricList</text><!--entity _Router--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="57" x="241" y="28"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="37" x="251" y="50.0059">Router</text><!--entity _song--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="49" x="361" y="214"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="29" x="371" y="236.0059">song</text><!--entity _SongCreate--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="87" x="85" y="90"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="67" x="95" y="112.0059">SongCreate</text><!--entity _SongDetail--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="83" x="228" y="90"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="63" x="238" y="112.0059">SongDetail</text><!--entity _SongList--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="70" x="449.5" y="90"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="50" x="459.5" y="112.0059">SongList</text><!--link <b>index</b> to apollo--><path d="M211.179,32.863 C218.781,25.872 229.332,17.747 240.5,14 C264.518,5.942 273.392,6.216 297.5,14 C307.402,17.197 316.945,23.617 324.514,29.789 " fill="none" id="&lt;b&gt;index&lt;/b&gt;-apollo" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="328.506,33.171,324.2246,24.3014,324.691,29.939,319.0534,30.4054,328.506,33.171" style="stroke: #000000; stroke-width: 1.0;"/><!--link <b>index</b> to _Router--><path d="M227.117,45 C229.945,45 232.774,45 235.602,45 " fill="none" id="&lt;b&gt;index&lt;/b&gt;-_Router" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="240.693,45,231.693,41,235.693,45,231.693,49,240.693,45" style="stroke: #000000; stroke-width: 1.0;"/><!--link _LyricCreate to _AddLyricsToSong--><path d="M220.944,186.0789 C218.963,193.0734 216.613,201.3652 214.493,208.8499 " fill="none" id="_LyricCreate-_AddLyricsToSong" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="213.068,213.8767,219.3704,206.3083,214.4313,209.0661,211.6735,204.1271,213.068,213.8767" style="stroke: #000000; stroke-width: 0.5;"/><!--link _LyricList to _likeLyric--><path d="M314.5,186.0789 C314.5,193.0734 314.5,201.3652 314.5,208.8499 " fill="none" id="_LyricList-_likeLyric" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="314.5,213.8767,318.5,204.8767,314.5,208.8767,310.5,204.8767,314.5,213.8767" style="stroke: #000000; stroke-width: 0.5;"/><!--link _LyricList to _song--><path d="M333.527,186.0789 C342.44,193.6115 353.134,202.6486 362.498,210.5618 " fill="none" id="_LyricList-_song" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="366.421,213.8767,362.1284,205.0125,362.6019,210.6495,356.9649,211.123,366.421,213.8767" style="stroke: #000000; stroke-width: 0.5;"/><!--link _Router to _SongCreate--><path d="M240.835,58.806 C238.357,59.893 235.886,60.97 233.5,62 C213.426,70.666 191.093,80.059 172.203,87.932 " fill="none" id="_Router-_SongCreate" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="167.478,89.899,177.3241,90.133,172.094,87.9774,174.2496,82.7474,167.478,89.899" style="stroke: #000000; stroke-width: 0.5;"/><!--link _Router to _SongDetail--><path d="M269.5,62.079 C269.5,69.073 269.5,77.365 269.5,84.85 " fill="none" id="_Router-_SongDetail" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="269.5,89.877,273.5,80.877,269.5,84.877,265.5,80.877,269.5,89.877" style="stroke: #000000; stroke-width: 0.5;"/><!--link _Router to _SongList--><path d="M298.357,59.701 C300.419,60.523 302.48,61.299 304.5,62 C351.423,78.296 407.225,90.941 444.125,98.411 " fill="none" id="_Router-_SongList" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="449.429,99.475,441.3924,93.7818,444.5268,98.4908,439.8177,101.6253,449.429,99.475" style="stroke: #000000; stroke-width: 0.5;"/><!--link _SongCreate to _addSong--><path d="M105.1856,124.079 C94.0683,131.746 80.6909,140.972 69.0723,148.9846 " fill="none" id="_SongCreate-_addSong" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="64.8788,151.8767,74.5587,150.0604,68.995,149.0382,70.0172,143.4745,64.8788,151.8767" style="stroke: #000000; stroke-width: 0.5;"/><!--link _SongDetail to _fetchSong--><path d="M232.251,124.079 C213.865,132.015 191.611,141.621 172.609,149.8235 " fill="none" id="_SongDetail-_fetchSong" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="167.852,151.8767,177.7003,151.9826,172.4426,149.8952,174.53,144.6376,167.852,151.8767" style="stroke: #000000; stroke-width: 0.5;"/><!--link _SongDetail to _LyricCreate--><path d="M257.709,124.079 C252.382,131.342 246.03,140.005 240.379,147.71 " fill="none" id="_SongDetail-_LyricCreate" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="237.324,151.8767,245.8712,146.9833,240.2803,147.8443,239.4193,142.2533,237.324,151.8767" style="stroke: #000000; stroke-width: 0.5;"/><!--link _SongDetail to _LyricList--><path d="M281.559,124.079 C287.007,131.342 293.504,140.005 299.282,147.71 " fill="none" id="_SongDetail-_LyricList" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="302.408,151.8767,300.2103,142.2762,299.409,147.876,293.8092,147.0746,302.408,151.8767" style="stroke: #000000; stroke-width: 0.5;"/><!--link _SongDetail to _song--><path d="M311.11,122.365 C326.387,129.339 342.791,139.065 354.5,152 C369.035,168.0559 377.141,191.7592 381.385,208.8186 " fill="none" id="_SongDetail-_song" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="382.581,213.8837,384.4058,204.2054,381.432,209.0175,376.6199,206.0437,382.581,213.8837" style="stroke: #000000; stroke-width: 0.5;"/><!--link _SongList to _deleteSong--><path d="M471.101,124.079 C465.048,131.342 457.829,140.005 451.409,147.71 " fill="none" id="_SongList-_deleteSong" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="447.936,151.8767,456.7714,147.5252,451.1377,148.0362,450.6266,142.4025,447.936,151.8767" style="stroke: #000000; stroke-width: 0.5;"/><!--link _SongList to _fetchSongs--><path d="M497.899,124.079 C503.952,131.342 511.171,140.005 517.591,147.71 " fill="none" id="_SongList-_fetchSongs" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="521.064,151.8767,518.3734,142.4025,517.8623,148.0362,512.2286,147.5252,521.064,151.8767" style="stroke: #000000; stroke-width: 0.5;"/><!--link _SongList to _song--><path d="M519.535,113.455 C542.255,119.006 570.196,130.079 584.5,152 C592.758,164.6552 593.962,174.2177 584.5,186 C563.616,212.0056 465.569,223.5711 415.334,227.8611 " fill="none" id="_SongList-_song" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="410.332,228.2776,419.6334,231.5155,415.3147,227.8619,418.9683,223.5432,410.332,228.2776" style="stroke: #000000; stroke-width: 0.5;"/><script type="text/plantuml"><![CDATA[
+@startuml
+
+scale max 1920 width
+top to bottom direction
+
+skinparam nodesep 14
+skinparam ranksep 28
+skinparam monochrome true
+skinparam shadowing false
+skinparam defaultFontName Tahoma
+skinparam defaultFontSize 12
+skinparam roundCorner 6
+skinparam dpi 150
+skinparam arrowColor black
+skinparam arrowThickness 0.5
+skinparam packageTitleAlignment left
+
+skinparam usecase {
+  borderThickness 0.5
+}
+
+skinparam rectangle {
+  borderThickness 0.5
+}
+
+skinparam component {
+  borderThickness 1
+}
+
+
+rectangle "AddLyricsToSong" as _AddLyricsToSong
+rectangle "addSong" as _addSong
+(apollo)
+rectangle "deleteSong" as _deleteSong
+rectangle "fetchSong" as _fetchSong
+rectangle "fetchSongs" as _fetchSongs
+(<b>index</b>)
+rectangle "likeLyric" as _likeLyric
+rectangle "LyricCreate" as _LyricCreate
+rectangle "LyricList" as _LyricList
+rectangle "Router" as _Router
+rectangle "song" as _song
+rectangle "SongCreate" as _SongCreate
+rectangle "SongDetail" as _SongDetail
+rectangle "SongList" as _SongList
+
+
+(<b>index</b>) -[thickness=1]> (apollo)
+(<b>index</b>) -[thickness=1]> _Router
+_LyricCreate --> _AddLyricsToSong
+_LyricList --> _likeLyric
+_LyricList --> _song
+_Router --> _SongCreate
+_Router --> _SongDetail
+_Router --> _SongList
+_SongCreate --> _addSong
+_SongDetail --> _fetchSong
+_SongDetail --> _LyricCreate
+_SongDetail --> _LyricList
+_SongDetail --> _song
+_SongList --> _deleteSong
+_SongList --> _fetchSongs
+_SongList --> _song
+
+@enduml
+
+
+' View and edit on https://arkit.pro
+]]></script></g></svg>

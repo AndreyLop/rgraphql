@@ -50,6 +50,7 @@
   "devDependencies": {
     "@types/react": "^16.9.9",
     "@types/react-dom": "^16.9.2",
+    "arkit": "^1.6.2",
     "source-map-loader": "^0.2.4",
     "ts-loader": "^6.2.1",
     "typescript": "^3.6.4"
