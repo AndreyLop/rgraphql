@@ -19,7 +19,7 @@
     "apollo-cache-inmemory": "latest",
     "apollo-client": "latest",
     "apollo-link-http": "latest",
-    "axios": "^0.15.3",
+    "axios": "^0.21.1",
     "babel-core": "^6.22.1",
     "babel-loader": "^6.2.10",
     "babel-preset-env": "^1.1.8",
